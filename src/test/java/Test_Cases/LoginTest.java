@@ -11,7 +11,8 @@ public class LoginTest extends BaseTest {
      Login.ClickWarningAcceptBtn();
      Login.EnterUserName(prop.getProperty("UserName"));
      Login.EnterPassword(prop.getProperty("Password"));
-
+     Login.LoginPageHeaderTitle_ContinueBtn();
+     Login.EnterPin(prop.getProperty("Pin"));
 
     }
 
